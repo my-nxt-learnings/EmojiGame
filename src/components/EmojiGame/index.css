@@ -2,8 +2,8 @@
 .emojiContainer {
   display: flex;
   justify-content: center;
-   background: linear-gradient(to right, #ee0979, #ff6a00);
-   background-size: cover;
+  background: linear-gradient(to right, #ee0979, #ff6a00);
+  background-size: cover;
   flex-wrap: wrap;
   padding: 50px;
   min-height: 80vh;
