@@ -1,0 +1,60 @@
+/* Styling for WinOrLoseCard Component */
+.loseCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #ff6a00, #ee0979);
+  color: white;
+  padding: 30px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  width: 100vw;
+  margin: auto;
+  transition: transform 0.3s ease-in-out;
+  height: 80vh;
+}
+
+.loseCard h1 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.loseCard p {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 5px 0;
+}
+
+.restart {
+  background: #ffcc00;
+  color: black;
+  border: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 15px;
+  transition:
+    background 0.3s ease-in-out,
+    transform 0.2s ease-in-out;
+}
+
+.restart:hover {
+  background: #ff9900;
+  transform: scale(1.1);
+}
+
+.loseCard img {
+  width: 100%;
+  max-width: 200px;
+  margin-top: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.loseCard img:hover {
+  transform: rotate(5deg);
+}

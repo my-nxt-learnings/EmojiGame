@@ -1,0 +1,43 @@
+/* Navbar Container */
+.Navbar {
+  background-color: #ff6b6b; /* Primary Blue */
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  height: 20vh;
+}
+
+/* Logo Section */
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo .image {
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+
+.logo h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  letter-spacing: 1px;
+}
+
+/* Score Section */
+.Navbar div:last-child {
+  display: flex;
+  gap: 20px;
+  font-size: 18px;
+}
+
+.Navbar p {
+  margin: 0;
+  font-weight: 500;
+}
